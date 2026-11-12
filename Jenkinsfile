@@ -3,7 +3,7 @@ pipeline {
     agent any
 
     environment {
-        IMAGE_NAME = 'YOUR_DOCKERHUB_USERNAME/task-api'
+        IMAGE_NAME = 'saurabhchaddha6/task-api'
     }
 
     stages {
